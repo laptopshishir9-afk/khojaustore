@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
-    "build": "vite build && cp docs/index.html docs/404.html && touch docs/.nojekyll && mkdir -p docs/src/assets/images docs/uploads && cp src/assets/images/khojau_logo.svg src/assets/images/founder_shishir_1790996757613.jpg src/assets/images/hero_nepal_shopping_1790995906814.jpg docs/src/assets/images/ && cp uploads/*.jpg docs/uploads/ && mkdir -p assets && cp docs/assets/* assets/",
+    "build": "vite build && cp docs/index.html docs/404.html && touch docs/.nojekyll && mkdir -p docs/src/assets/images docs/uploads && cp src/assets/images/khojau_logo.svg src/assets/images/founder_shishir_1790996757613.jpg src/assets/images/hero_nepal_shopping_1790995906814.jpg docs/src/assets/images/ && cp uploads/*.jpg docs/uploads/",
     "start": "tsx server.ts",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
